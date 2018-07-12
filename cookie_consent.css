@@ -771,6 +771,7 @@
        cursor: pointer;
        z-index: 9998;
    }
+   
    .pull-right {
        float: right !important;
    }
