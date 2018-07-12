@@ -250,7 +250,7 @@
        font-weight: 300;
    }
 
-   .modal-header.bg-eschools-blue button {
+   .modal-header.bg-blue button {
        opacity: 1;
    }
 
@@ -283,7 +283,7 @@
        color: #333 !important;
    }
 
-   .modal-footer.bg-eschools-blue-0_2 {
+   .modal-footer.bg-blue-0_2 {
        background-color: rgba(58,112,157,0.2);
 
    }
@@ -771,7 +771,7 @@
        cursor: pointer;
        z-index: 9998;
    }
-   
+
    .pull-right {
        float: right !important;
    }
@@ -789,6 +789,12 @@
 
    .modal.in#cookies_consent .modal-dialog .modal-header {
        border-radius: 5px 5px 0 0;
+   }
+
+   .modal.in#cookies_consent .modal-header button {
+     position: absolute;
+     right: 15px;
+     top: 0px;
    }
 
    @media only screen and (max-width: 1100px) {
