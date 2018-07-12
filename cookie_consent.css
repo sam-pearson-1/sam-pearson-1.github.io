@@ -756,7 +756,7 @@
    .modal-content {
        background-color: white !important;
    }
-   .modal#cookies_consent .hamburger {
+   .modal#cookies_consent .cheeseburger {
        display: none;
    }
    #cookie-icon {
@@ -878,16 +878,16 @@
        .website .modal-body .modal-main, .empty .modal-body .modal-main {
            width: 100%;
        }
-       .modal#cookies_consent .hamburger {
+       .modal#cookies_consent .cheeseburger {
            float: left;
            position: relative;
            top: 5px;
            display: block;
        }
-       .modal#cookies_consent .hamburger i {
+       .modal#cookies_consent .cheeseburger i {
            font-size: 24px;
        }
-       .modal#cookies_consent .hamburger span {
+       .modal#cookies_consent .cheeseburger span {
            position: relative;
            top: -4px;
            right: -5px;
