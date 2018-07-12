@@ -761,7 +761,7 @@
    }
    #cookie-icon {
        display: none;
-       background: url(/assets/img/cookies.svg) no-repeat center / 100%;
+       background: url(cookies.svg) no-repeat center / 100%;
        position: fixed;
        bottom: 20px;
        left: 20px;
