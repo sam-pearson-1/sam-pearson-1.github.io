@@ -11,6 +11,7 @@ var if_not_advertising_cookies = [prefix + 'essential_only', prefix + 'agree', p
 var if_not_analytical_cookies = [prefix + 'essential_only', prefix + 'agree', prefix + 'analytical', '_gat', '_gid', '_ga', 'AMP_TOKEN', 'CONSENT', 'NID'];
 
 var cookie_policy_link = 'https://google.com'
+
 // There's no need to edit anything below this line but feel free to amend the code to suit your own requirements
 
 var cookie_categories = [prefix + 'agree', prefix + 'analytical', prefix + 'advertising', prefix + 'essential_only', prefix + 'user_created'];
