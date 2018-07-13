@@ -13,24 +13,26 @@
   <link rel="stylesheet" href="cookie_consent.css">
   <script src="cookie_consent.js"></script>
 </head>
-<body style="padding:20px">
-  <h1>Cookies Consent GDPR Plugin</h1>
-  <p>This is a plugin I made to install on clients websites for the GDPR that came into effect on 25th May 2018.</p>
-  <p>It's a simple plugin and requires very little input from the developer. You simply need to be using jQuery 1.9.1 or later and Bootstrap 3 or later.</p>
-  <br />
-  <h2>Installtion instructions</h2>
-  <ol>
-    <li>Download the zip file <a href="cookie_consent.zip" download>here</a>, which contains a JS file, a CSS file and a cookie icon SVG.</li>
-    <li>Open the JS file and amend the nine variables at the top of the document;
-      <ul>
-        <li>prefix - this is used to prefix all the cookie names. Ideally you'd use your company name followed by an underscore but it's your choice</li>
-        <li>company_name - pretty self explanatory for this one</li>
-        <li>landing_text - this is the text that appears when you open the cookie modal. I'd suggest you use it to explain cookies in general and why you use them</li>
-        <li>analytical_text, advertising_text and user_created_text - this is the text where you should explain which cookies use this and why you need them</li>
-        <li>cookie_expiration - you can either specify a datetime or a time based on when the use clicks accept </li>
-        <li>if_not_advertising_cookies and if_not_analytical_cookies - here's the important part! If a user declines a specific set of cookies, we need to block them. So add to this array a list of cookies you DON'T want to display if a user decides to opt out. I've included the common Google ones.</li>
-      </ul>
-    <li>Link the JS and CSS files to your base file and away you go!</li>
-  </ol>
-  <p>If you have any issues, feel free to email me on <a href="mailto:hello@sampearson.xyz">hello@sampearson.xyz</a></p>
+<body>
+  <div class="container" style="padding:20px">
+    <h1>Cookies Consent GDPR Plugin</h1>
+    <p>This is a plugin I made to install on clients websites for the GDPR that came into effect on 25th May 2018.</p>
+    <p>It's a simple plugin and requires very little input from the developer. You simply need to be using jQuery 1.9.1 or later and Bootstrap 3 or later.</p>
+    <br />
+    <h2>Installtion instructions</h2>
+    <ol>
+      <li>Download the zip file <a href="cookie_consent.zip" download>here</a>, which contains a JS file, a CSS file and a cookie icon SVG.</li>
+      <li>Open the JS file and amend the nine variables at the top of the document;
+        <ul>
+          <li>prefix - this is used to prefix all the cookie names. Ideally you'd use your company name followed by an underscore but it's your choice</li>
+          <li>company_name - pretty self explanatory for this one</li>
+          <li>landing_text - this is the text that appears when you open the cookie modal. I'd suggest you use it to explain cookies in general and why you use them</li>
+          <li>analytical_text, advertising_text and user_created_text - this is the text where you should explain which cookies use this and why you need them</li>
+          <li>cookie_expiration - you can either specify a datetime or a time based on when the use clicks accept </li>
+          <li>if_not_advertising_cookies and if_not_analytical_cookies - here's the important part! If a user declines a specific set of cookies, we need to block them. So add to this array a list of cookies you DON'T want to display if a user decides to opt out. I've included the common Google ones.</li>
+        </ul>
+      <li>Link the JS and CSS files to your base file and away you go!</li>
+    </ol>
+    <p>If you have any issues, feel free to email me on <a href="mailto:hello@sampearson.xyz">hello@sampearson.xyz</a></p>
+  </div>
 </body>
